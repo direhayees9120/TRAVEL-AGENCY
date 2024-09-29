@@ -1,0 +1,392 @@
+body {
+    background-color: rgb(229, 229, 229);
+    font-family: "Ubuntu Sans", sans-serif;
+  }
+
+  .navbar-expand-lg {
+    background-color: rgb(1, 64, 46) !important;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-nav {
+    margin: 0 auto;
+    font-weight: 200;
+    font-size: 15px;
+  }
+  
+  .nav-item a {
+    color: whitesmoke !important;
+  }
+
+  button {
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: rgb(254, 156, 156);
+    border: rgb(254, 156, 156);
+    margin-left: 30px;
+  }
+
+
+  .Discover {
+    background-color: rgb(54, 134, 110);
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 30px;
+    font-size: 12px;
+  }
+
+  .carousel-item {
+    max-width: 700px;
+    object-fit: cover;
+    height: 500px;
+  }
+  
+  .des-france {
+    background-color: white;
+    height: 70%;
+    width: 50%;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    margin: 30px 0 0 540px;
+  }
+  
+  .des-france h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(1, 64, 46);
+  }
+  
+  .des-france h6 {
+    font-size: 12px;
+    font-weight: 300;
+    color: gray;
+  }
+  
+  .btn-btn {
+    margin: auto;
+  }
+  
+  .carousel-section {
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+  }
+  
+  #carouselExampleSlidesOnly {
+    position: absolute;
+    margin-right: 550px;
+    overflow: hidden;
+    height: 45%;
+    width: 40%;
+  }
+
+  .hero-section {
+    background-image: url(images/Hero\ Ambient.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    object-fit: cover;
+    padding: 50px;
+  }
+
+  .hero-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 30px 0 0 0;
+    justify-content: center;
+  }
+  
+  .hero-section-2 h2 {
+    font-size: 40px;
+    margin-left: 90px;
+    color: rgb(1, 64, 46);
+  }
+  
+  .hero-section-2 h6 {
+    margin-left: 90px !important;
+    font-weight: 300;
+    color: gray;
+  }
+  
+  .hero-section-2 button {
+    margin-left: 90px !important;
+  }
+
+  .hero-text {
+    color: whitesmoke;
+    font-size: 100px;
+    font-weight: 500;
+    margin: 150px 0 0 30px;
+  }
+  
+  .hero-text h2 {
+    font-size: 60px;
+  }
+
+  #sub-section5 {
+    background-color: rgb(1, 64, 46);
+    color: whitesmoke;
+    width: 330px;
+    height: 250px;
+    margin: -60px 20px 0 35px;
+    position: relative;
+    align-content: center;
+  }
+  
+  .card {
+    border: none;
+    background-color: rgb(229, 229, 229);
+  }
+  .card img {
+    margin: 0 auto;
+  }
+  #sub-section5 {
+    margin: 0 auto;
+    top: -50px;
+  }
+  #sub-section5 h6 {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
+  .wrd-ctn {
+    padding: 25px;
+    height: 70%;
+  }
+  
+  #sub-section5 h2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .section-5 {
+    text-align: center;
+    margin: 40px 0 0 0;
+  }
+  
+  .section-5 h2 {
+    font-size: 35px;
+    color: rgb(1, 64, 46);
+  }
+  
+  .section-5 h6 {
+    font-weight: 300;
+    color: gray;
+  }
+  .btn2 {
+    width: 300px;
+    font-size: 12px;
+  }
+  
+  .btn1 {
+    width: 260px;
+    font-size: 12px;
+    background-color: white;
+    border: 2px solid rgb(1, 64, 46);
+    color: rgb(1, 64, 46);
+  }
+  
+  .section5-img {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: center;
+    padding: 100px;
+  }
+  
+  .same-size {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  #sub-section5 {
+    background-color: rgb(1, 64, 46);
+    color: whitesmoke;
+    width: 330px;
+    height: 250px;
+    margin: -60px 20px 0 35px;
+    position: relative;
+    align-content: center;
+  }
+  
+  .card {
+    border: none;
+    background-color: rgb(229, 229, 229);
+  }
+  .card img {
+    margin: 0 auto;
+  }
+  #sub-section5 {
+    margin: 0 auto;
+    top: -50px;
+  }
+  #sub-section5 h6 {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
+  .wrd-ctn {
+    padding: 25px;
+    height: 70%;
+  }
+  
+  #sub-section5 h2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .cards-head h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(1, 64, 46);
+  }
+
+  .cards-1 {
+    display: grid;
+    width: 90vw;
+    height: 400px;
+    grid-template-columns: repeat(6, 180px);
+    gap: 30px;
+    padding-inline: 50px;
+    justify-content: center;
+    margin: 50px 0 0 70px;
+  }
+  
+  .card img {
+    width: 90%;
+  }
+  
+  .card-body {
+    background-color: white;
+    height: 5px !important;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    color: rgb(1, 64, 46);
+  }
+  
+  .cont {
+    background-image: url(images/footer\ background.png);
+    color: white;
+    margin: 60px 0 0 0;
+  }
+
+  .sub-footer {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    justify-content: center;
+    padding: 30px;
+  
+  }
+
+  .thisarea input {
+    padding: 0 15px 0 15px;
+    height: 50px;
+    width: 300px;
+    border: 1px solid white;
+    margin: 0 0 20px 0;
+  }
+
+  input {
+    padding: 0 15px 0 15px;
+    height: 50px;
+    width: 430px;
+    border: 1px solid white;
+    margin: 0 0 20px 0;
+  }
+
+  #h2 {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+ 
+  #sub-footer {
+    display: flex;
+    margin: 40px 0 0 0;
+  }
+  
+  #sub-footer img {
+    border-radius: 100px;
+    border: 2px solid white;
+    margin-top: 40px;
+  }
+  
+  #sub-footer span {
+    margin-left: 30px;
+  }
+  
+  #sub-footer h6 {
+    font-size: 13px;
+    font-weight: 200;
+  }
+  
+  #sub-footer h2 {
+    font-size: 20px;
+  }
+
+  .call {
+    background-color: rgb(55,134,110);
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .call h6 {
+    margin: 100px 0 0 0;
+    text-align: center;
+    padding: 40px;
+    font-weight: 300;
+  }
+
+
+  
+
+  footer .container{
+    background: rgb(1, 64, 46);
+    max-width: 1200px;
+    color: white;
+    
+    
+
+  }
+  
+  hr{
+    background-color: rgb(1, 64, 46);
+    margin: 0;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: start;
+   
+  }
+  
+  .icons img {
+    height: 35px;
+    margin: 15px 0 20px 10px;
+  }
+  
+  .copy {
+    text-align: end;
+    font-size: 12px;
+    color:rgb(55,134,110);
+    padding-inline: 40px;
+    
+  }
+  
+  
